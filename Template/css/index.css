@@ -1,0 +1,97 @@
+@import url(../bower_components/normalize.css/normalize.css);
+body {
+  font-family: "Helvetic Neue", Helvetica, Arial; }
+
+.users-list {
+  margin-top: 70px; }
+  .users-list .add-user {
+    display: block;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 17px;
+    bottom: 17px;
+    background: #0097d5;
+    border-radius: 50%; }
+    .users-list .add-user i.more-one {
+      display: block;
+      background-image: url("../bower_components/material-design-icons/social/2x_web/ic_person_add_white_36dp.png");
+      z-index: 2;
+      width: 28px;
+      height: 28px;
+      margin: 16px;
+      background-size: 100%; }
+  .users-list .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #0097d5;
+    box-shadow: 0px -5px 30px #000; }
+    .users-list .top-bar h1 {
+      color: #FFFFFF;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      line-height: 70px;
+      font-size: 1.4em; }
+    .users-list .top-bar .search {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      width: 28px;
+      height: 28px; }
+      .users-list .top-bar .search i {
+        background-image: url("../bower_components/material-design-icons/action/2x_web/ic_search_white_36dp.png");
+        display: block;
+        width: 28px;
+        height: 28px;
+        background-size: cover; }
+  .users-list .user {
+    padding: 10px; }
+    .users-list .user .photo-preview {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 10px; }
+      .users-list .user .photo-preview img {
+        display: inline-block;
+        height: 50px;
+        width: 50px; }
+    .users-list .user .user-name {
+      display: inline-block;
+      vertical-align: top;
+      line-height: 50px; }
+
+.user-details .user-photo {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover; }
+  .user-details .user-photo h1 {
+    margin: 0;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+  .user-details .user-photo .top-bar {
+    position: relative;
+    height: 70px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(#000000 0%, rgba(255, 255, 255, 0) 100%); }
+    .user-details .user-photo .top-bar i {
+      display: block;
+      width: 28px;
+      height: 28px;
+      background-size: cover;
+      position: absolute; }
+    .user-details .user-photo .top-bar .icon-back {
+      background-image: url("../bower_components/material-design-icons/navigation/2x_web/ic_arrow_back_white_36dp.png");
+      top: 20px;
+      left: 10px; }
+    .user-details .user-photo .top-bar .icon-edit {
+      background-image: url("../bower_components/material-design-icons/editor/2x_web/ic_mode_edit_white_36dp.png");
+      top: 20px;
+      right: 10px; }

@@ -1,0 +1,20 @@
+body{
+    font-family: "Helvetic Neue", Helvetica, Arial;
+}
+.users-list .photo-preview{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.users-list .photo-preview img{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+.users-list .user-name{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
+}
