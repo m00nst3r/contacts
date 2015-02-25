@@ -49,6 +49,10 @@ body {
         background-size: cover; }
   .users-list .user {
     padding: 10px; }
+    .users-list .user a {
+      color: #000;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent; }
     .users-list .user .photo-preview {
       display: inline-block;
       height: 50px;
@@ -95,3 +99,64 @@ body {
       background-image: url("../bower_components/material-design-icons/editor/2x_web/ic_mode_edit_white_36dp.png");
       top: 20px;
       right: 10px; }
+.user-details .details {
+  border-radius: 2px;
+  margin: 10px;
+  padding: 20px 10px;
+  box-shadow: 0 2px 6px #888888; }
+  .user-details .details .personal {
+    margin: 0;
+    font-weight: normal;
+    padding-bottom: 20px; }
+    .user-details .details .personal .icon {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      background-size: 100%;
+      position: relative;
+      top: 4px;
+      margin-right: 10px; }
+    .user-details .details .personal span {
+      display: inline-block; }
+    .user-details .details .personal .icon-phone {
+      background-image: url('../bower_components/material-design-icons/communication/2x_web/ic_call_black_24dp.png'); }
+    .user-details .details .personal .icon-mail {
+      background-image: url('../bower_components/material-design-icons/content/2x_web/ic_mail_black_24dp.png'); }
+    .user-details .details .personal hr {
+      margin: 0 0 0 10%;
+      position: relative;
+      top: 14px; }
+  .user-details .details .personal:last-child {
+    padding-bottom: 0; }
+    .user-details .details .personal:last-child hr {
+      display: none; }
+
+.create-user .top-bar {
+  height: 70px;
+  background-color: #0097d5; }
+  .create-user .top-bar .icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    margin: 0 10px 0 10px;
+    top: 4px;
+    background-size: 100%; }
+  .create-user .top-bar .icon.icon-save {
+    background-image: url('../bower_components/material-design-icons/action/2x_web/ic_done_white_24dp.png'); }
+  .create-user .top-bar h1 {
+    color: #FFFFFF;
+    margin: 0;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 1.4em; }
+.create-user .create-form input {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 88%; }
+.create-user .create-form .photo .photo-thump {
+  margin: 10px;
+  width: 50%; }
+  .create-user .create-form .photo .photo-thump img {
+    width: inherit; }

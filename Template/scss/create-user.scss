@@ -1,0 +1,46 @@
+.create-user{
+  .top-bar{
+    height: 70px;
+    background-color: $background-blue;
+
+    .icon{
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      position: relative;
+      margin: 0 10px 0 10px;
+      top: 4px;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+    }
+    .icon.icon-save{
+      background-image: url('../bower_components/material-design-icons/action/2x_web/ic_done_white_24dp.png');
+    }
+    h1{
+      color: #FFFFFF;
+      margin: 0;
+      display: inline-block;
+      line-height: 70px;
+      font-size: 1.4em;
+    }
+  }
+  .create-form{
+    input{
+      display: block;
+      padding: 10px;
+      margin: 10px;
+      width: 88%;
+    }
+
+    .photo{
+      .photo-thump{
+        margin: 10px;
+        width: 50%;
+        
+        img{
+          width: inherit;
+        }
+      }
+    }
+  }
+}

@@ -16,4 +16,6 @@ gulp.task('watch', function(){
     })
 });
 
+gulp.task('build', ['less']);
+
 gulp.task('default', ['watch']);
