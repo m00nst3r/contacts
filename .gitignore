@@ -29,7 +29,7 @@ Template/bower_components
 .lock-wscript
 
 #Intellij IDEA
-.idea/workspace.xml
+workspace.xml
 
 #Template
 Template/.idea/libraries
