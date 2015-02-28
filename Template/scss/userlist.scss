@@ -1,4 +1,3 @@
-$background-blue: #0097d5;
 .users-list {
   margin-top: 70px;
 
@@ -14,7 +13,7 @@ $background-blue: #0097d5;
 
     i.more-one{
       display: block;
-      background-image: url("../bower_components/material-design-icons/social/2x_web/ic_person_add_white_36dp.png");
+      background-image: url("../images/ic_person_add_white_36dp.png");
       z-index: 2;
       width: 28px;
       height: 28px;
@@ -48,7 +47,7 @@ $background-blue: #0097d5;
       height: 28px;
 
       i{
-        background-image: url("../bower_components/material-design-icons/action/2x_web/ic_search_white_36dp.png");
+        background-image: url("../images/ic_search_white_36dp.png");
         display: block;
         width: 28px;
         height: 28px;

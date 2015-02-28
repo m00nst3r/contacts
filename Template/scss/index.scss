@@ -4,6 +4,8 @@ body{
   font-family: "Helvetic Neue", Helvetica, Arial;
 }
 
+$background-blue: #0097d5;
+
 @import "userlist";
 @import "user-details";
 @import "create-user";

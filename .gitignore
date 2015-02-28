@@ -34,6 +34,7 @@ workspace.xml
 #Template
 Template/.idea/libraries
 Template/Template.iml
+Template/dist
 
 #Gradle
 .gradle
